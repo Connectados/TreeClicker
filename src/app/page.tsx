@@ -31,7 +31,7 @@ export default function LandingPage() {
           <h1 className="text-5xl md:text-7xl font-bold text-green-800 mb-4">Tree Clicker</h1>
           <div className="flex items-center justify-center gap-2 text-green-600">
             <Sparkles className="w-6 h-6" />
-            <p className="text-xl md:text-2xl">Plant Trees with Every Click</p>
+            <p className="text-xl md:text-2xl">Planta Árboles con Cada Clic</p>
             <Sparkles className="w-6 h-6" />
           </div>
         </div>
@@ -39,27 +39,27 @@ export default function LandingPage() {
         {/* Description */}
         <div className="max-w-2xl mb-12 space-y-4">
           <p className="text-lg text-green-700 leading-relaxed">
-            Welcome to Tree Clicker, where every click brings us closer to a greener world! Click the magical tree
-            button to accumulate clicks, and watch as your efforts bloom into beautiful virtual trees.
+            ¡Bienvenido a Árbol Clicker, donde cada clic nos acerca a un mundo más verde! Haz clic en el botón mágico del árbol
+            para acumular clics y observa cómo tus esfuerzos florecen en hermosos árboles virtuales.
           </p>
           <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 border border-green-200">
-            <h3 className="text-xl font-semibold text-green-800 mb-3">How it works:</h3>
+            <h3 className="text-xl font-semibold text-green-800 mb-3">Cómo funciona:</h3>
             <ul className="text-green-700 space-y-2 text-left">
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                Click the tree button to earn clicks
+                Haz clic en el botón del árbol para ganar clics
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                Reach 100 clicks to plant a tree
+                Alcanza 100 clics para plantar un árbol
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                Watch beautiful animations as your forest grows
+                Observa hermosas animaciones mientras crece tu bosque
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                Your progress is automatically saved
+                Tu progreso se guarda automáticamente
               </li>
             </ul>
           </div>
@@ -72,13 +72,13 @@ export default function LandingPage() {
             className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-xl rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 animate-pulse-gentle"
           >
             <TreePine className="w-6 h-6 mr-2" />
-            Start Planting Trees
+            Comenzar a Plantar Árboles
           </Button>
         </Link>
 
         {/* Footer */}
         <div className="mt-16 text-green-600 text-sm">
-          <p>🌱 Every click counts towards a greener future 🌱</p>
+          <p>🌱 Cada clic cuenta hacia un futuro más verde 🌱</p>
         </div>
       </div>
 
